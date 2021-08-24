@@ -16,7 +16,7 @@ char key[rows][cols]={
 byte rowPins[rows]={0,1,2,3};
 byte colPins[cols]={4,5,6};
 Keypad keypad= Keypad(makeKeymap(key),rowPins,colPins,rows,cols);
-char* password="67589";
+char* password="7869";
 int currentposition=0;
  
  
